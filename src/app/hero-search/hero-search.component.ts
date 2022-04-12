@@ -20,7 +20,7 @@ export class HeroSearchComponent implements OnInit {
 
   // Push a search term into the observable stream.
   search(term: string): void {
-    console.log()
+    // console.log(this.searchTerms);
     this.searchTerms.next(term);
   }
 
